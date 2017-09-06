@@ -5,6 +5,8 @@ import java.util.Arrays;
 /*
  * Binary Search looks for the target by comparing the middle item in the array.
  * 
+ * Purpose: Sets up the binary recursive class up. It is called on by the factory
+ * 
  * Base case: 
  * If the middle most item is the target item, return it.
  * 
@@ -31,7 +33,7 @@ public class BinaryRecursiveSearch implements Practice2Search{
 			return mid;
 		}
 		if (high < low){
-			System.out.println("-1");
+//			System.out.println("-1");
 			return -1;
 		}		
 			

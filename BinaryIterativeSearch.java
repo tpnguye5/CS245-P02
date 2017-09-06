@@ -1,5 +1,7 @@
 package edu.usfca.cs.cs245;
-
+/*
+ * Purpose: Set the class for binary iterative. It is then called on by the factory
+ */
 public class BinaryIterativeSearch implements Practice2Search{
 	public String searchName(){
 		return "Binary-Iterative";
